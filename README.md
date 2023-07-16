@@ -4,7 +4,7 @@
 
 ## Week 1 Problem Set: Cash
 
-## Greedy Algorithms
+### Greedy Algorithms
 
 <img src="https://cs50.harvard.edu/x/2023/psets/1/cash/coins.jpg" />
 
@@ -16,7 +16,7 @@ What’s all that mean? Well, suppose that a cashier owes a customer some change
 
 It turns out that this greedy approach (i.e., algorithm) is not only locally optimal but also globally so for America’s currency (and also the European Union’s). That is, so long as a cashier has enough of each coin, this largest-to-smallest approach will yield the fewest coins possible. How few? Well, you tell us!
 
-## Implementation Details
+### Implementation Details
 
 In `cash.c`, we’ve implemented most (but not all!) of a program that prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made. Indeed, `main` is already implemented for you. But notice how `main` calls several functions that aren’t yet implemented! One of those functions, `get_cents`, takes no arguments (as indicated by `void`) and returns an `int`. The rest of the functions all take one argument, an `int`, and also return an `int`. All of them currently return `0` so that the code will compile. But you’ll want to replace every `TODO and `return 0`; with your own code. Specifically, complete the implementation of those functions as follows:
 
@@ -42,7 +42,7 @@ Change owed: 41
 4
 ```
 
-## How To Test This Program
+### How To Test This Program
 For this program, try testing your code manually–it’s good practice:
 
 - If you input `-1`, does your program prompts you again?
